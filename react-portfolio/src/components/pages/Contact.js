@@ -4,6 +4,7 @@ export default function Contact() {
   return (
     <div className='container mt-3'>
       <h1 className="text-center">Contact Me</h1>
+      <hr></hr>
       <br></br>
       <form>
         <div class="row d-flex justify-content-center">

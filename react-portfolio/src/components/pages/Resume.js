@@ -1,13 +1,10 @@
 import React from 'react';
 import ResumeFile from '../../assets/resume/Manzione_Anthony_Resume_2023_.png'
 
-
-
 export default function Resume() {
   return (
     <div className='container mt-3'>
       <h1 className='text-center'>Resume</h1>
-      <br></br>
       <hr></hr>
       <br></br>
       <div className='container'>
@@ -19,10 +16,12 @@ export default function Resume() {
           <a href={ResumeFile} download>Download Resume</a>
         </div>
       </div>
+
       <br></br> <br></br>
       <br></br> <br></br>
       <br></br> <br></br>
       <br></br> <br></br>
+
     </div>
   );
 }

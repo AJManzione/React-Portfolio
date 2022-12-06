@@ -16,6 +16,7 @@ export default function Portfolio() {
   return (
     <div className='container mt-3'>
       <h1 className="text-center">Portfolio</h1>
+      <hr></hr>
       <br></br>
       <div className='container w-75'>
         <p class="text-center">Welcome to the work section of the website, here you will find a few of my favorite projects that I've deployed. The website portfolio was built with technologies of HTML and CSS and contain responsive dynamic web design. Below you'll find a few more pieces of work that I have completed over the fall.</p>
