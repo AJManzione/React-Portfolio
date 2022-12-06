@@ -10,7 +10,7 @@ export default function Contact() {
         <div class="row d-flex justify-content-center">
           <div class="col-md-5 custom-form">
             <input type="text" className="form-control m-2" placeholder="First name"></input>
-            <input type="text" className="form-control m-2" placeholder="Email Address"></input>
+            <input type="email" className="form-control m-2" placeholder="Email Address"></input>
             <input type="text" className="form-control m-2" placeholder="Message"></input>
             <div className='d-flex justify-content-center mt-5'>
               <button className='btn btn-primary'>Send</button>
