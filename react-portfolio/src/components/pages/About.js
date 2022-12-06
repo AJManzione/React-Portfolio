@@ -6,7 +6,7 @@ export default function About() {
     <div className='container mt-3'>
       <h1 className='text-center'>About Me</h1>
       <hr className='mb-4 '></hr>
-      <div className='row d-flex justify-content-center'>
+      <div className='row d-flex justify-content-center flex-wrap-wrap'>
         <div className='col-sm-4'>
             <img className='author-image'src={AuthorImage} alt=''></img>
         </div>
