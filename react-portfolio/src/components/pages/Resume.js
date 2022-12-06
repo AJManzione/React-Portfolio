@@ -9,7 +9,7 @@ export default function Resume() {
       <br></br>
       <div className='container'>
       </div>
-      <div className='row'>
+      <div className='custom-wrap'>
         <div className='col d-flex flex-sm-column align-items-center'>
           <a href={ResumeFile} target='__blank'>View Resume</a>
           <br></br>

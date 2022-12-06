@@ -78,8 +78,32 @@ footer {
 }
 
 
-/* @media only screen and (max-width: 1000px) {
-  .author-image {
-    
+@media only screen and (max-width: 1200px) {
+  .custom-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-} */
+  .author-image {
+    width: 50vw;
+  }
+  .custom-text {
+    width: 50vw;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) { 
+  .author-image {
+    width: 60vw;
+  }
+  .custom-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .custom-text {
+    width: 50vw;
+    text-align: center;
+  }
+}
