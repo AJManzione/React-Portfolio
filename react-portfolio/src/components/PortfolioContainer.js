@@ -4,10 +4,11 @@ import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-import Banner from '../assets/images/banner.png'
+import Footer from './pages/Footer';
+import Banner from '../assets/images/banner.png';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
     if (currentPage === 'About') {
@@ -35,6 +36,7 @@ export default function PortfolioContainer() {
         <NavTabs currentPage={currentPage} handlePageChange=  {handlePageChange} />
         {renderPage()}
       </div>
+        <Footer/>
     </div>
 
   );

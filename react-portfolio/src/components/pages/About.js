@@ -1,20 +1,20 @@
 import React from 'react';
+import AuthorImage from '../../assets/images/Anthony-Portrait.jpg'
 
 export default function About() {
   return (
-    <div className='container'>
-      <br></br>
-      <br></br>
-      <div className='container'>
-        <div className='row'>
-          <div className='col'>
-            <h1 className="text-center">About</h1>
+    <div className='container mt-3'>
+      <h1 className='text-center'>About Me</h1>
+      <hr className='mb-4'></hr>
+      <div className='row d-flex justify-content-center'>
+        <div className='col-sm-3'>
+          <div className='container'>
+            <img className='author-image'src={AuthorImage} alt=''></img>
           </div>
-        </div>  
-      </div>
-      <br></br>
-      <div className='container w-75'>
-        <p class="text-center">Hello and thank you for visiting my site, my name is Anthony Manzione and I am a software engineer and fullstack web developer. My love for technology started as a child, I was obsessed with video games and grew up with a controller in my hand. Now a days I enjoy spending my free time rock climbing, and getting outside.</p>
+        </div>
+        <div className='col-sm-5'>
+          <p class="text-right">Hello and thank you for visiting my site, my name is Anthony Manzione and I am a software engineer and fullstack web developer. My love for technology started as a child, I was obsessed with video games and grew up with a controller in my hand. Now a days I enjoy spending my free time rock climbing, and getting outside.</p>
+        </div>
       </div>
       <br></br>
       <br></br>

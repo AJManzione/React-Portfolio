@@ -2,7 +2,9 @@ import React from 'react';
 import MNFF from '../../assets/movies/MNFF-WT.gif';
 import WL from '../../assets/movies/Wish-List-WT.gif';
 import TPG from '../../assets/movies/TEAM-PROFILE-WT.gif';
-import RG from '../../assets/movies/README-generator-WT.gif'
+import RG from '../../assets/movies/README-generator-WT.gif';
+import WD from '../../assets/movies/Weather-Tracker.png';
+import WDS from '../../assets/movies/Work-Day-Scheduler.png';
 import githubIcon from '../../assets/icons/GitHub-Mark-120px-plus.png';
 import youtubeIcon from '../../assets/icons/youtube-logo-png-2069.png';
 import linkIcon from '../../assets/icons/link-icon.png'
@@ -10,16 +12,8 @@ import linkIcon from '../../assets/icons/link-icon.png'
 
 export default function Portfolio() {
   return (
-    <div className='container'>
-      <br></br>
-      <br></br>
-      <div className='container'>
-        <div className='row'>
-          <div className='col'>
-            <h1 className="text-center">Portfolio</h1>
-          </div>
-        </div>  
-      </div>
+    <div className='container mt-3'>
+      <h1 className="text-center">Portfolio</h1>
       <br></br>
       <div className='container w-75'>
         <p class="text-center">Welcome to the work section of the website, here you will find a few of my favorite projects that I've deployed. The website portfolio was built with technologies of HTML and CSS and contain responsive dynamic web design. Below you'll find a few more pieces of work that I have completed over the fall.</p>
@@ -35,14 +29,14 @@ export default function Portfolio() {
               <h3 class="text-center">Mickey-n-Friends-Finder</h3>
               </div>
               <div className='card-body'>
-                <img className="movies" src={MNFF}></img>
+                <img className="movies" src={MNFF} alt=''></img>
               </div>
               <div className='card-footer d-flex flex-row justify-content-around align-items-sm-center'>
-                <a href='https://github.com/wseban/Mickey-n-Friends-Finder'>
-                  <img width="25px"src={githubIcon}></img>
+                <a target='__blank' href='https://github.com/wseban/Mickey-n-Friends-Finder'>
+                  <img width="25px"src={githubIcon} alt=''></img>
                 </a>
-                <a href='https://wseban.github.io/Mickey-n-Friends-Finder/'>
-                  <img width='40px' src={linkIcon}></img>
+                <a target='__blank' href='https://wseban.github.io/Mickey-n-Friends-Finder/'>
+                  <img width='40px' src={linkIcon} alt=''></img>
                 </a>
               </div>
             </div>
@@ -54,14 +48,14 @@ export default function Portfolio() {
               <h3 class="text-center">Wish List Finder</h3>
               </div>
               <div className='card-body'>
-                <img className="movies" src={WL}></img>
+                <img className="movies" src={WL} alt=''></img>
               </div>
               <div className='card-footer d-flex flex-row justify-content-around align-items-sm-center'>
-                <a href='https://github.com/AJManzione/wish-list'>
-                  <img width="25px"src={githubIcon}></img>
+                <a target='__blank' href='https://github.com/AJManzione/wish-list'>
+                  <img width="25px"src={githubIcon} alt=''></img>
                 </a>
-                <a href='https://wish-list-maker.herokuapp.com/'>
-                  <img width='40px' src={linkIcon}></img>
+                <a target='__blank' href='https://wish-list-maker.herokuapp.com/'>
+                  <img width='40px' src={linkIcon} alt=''></img>
                 </a>
               </div>
             </div>
@@ -69,48 +63,61 @@ export default function Portfolio() {
 
           <br></br>
 
+
+          {/* -------------------------------------------------------------------------- */
+          /*                              COMMAND LINE APPS                             */
+          /* -------------------------------------------------------------------------- */}
+
           <div className='row mt-5 mb-5 text-center'>
             <hr></hr> 
-            <h1> Command Line Apps</h1>
+            <h1> Half Stack && CLI App's</h1>
           </div>
 {/* Team Profile Generator */}
-            <div className='col-lg-6'>
-              <div className='card'>
-                <div className='card-header'>
-                <h3 class="text-center">Team Profile Generator</h3>
-                </div>
-                <div className='card-body'>
-                  <img className="movies" src={TPG}></img>
-                </div>
-                <div className='card-footer d-flex flex-row justify-content-around align-items-sm-center'>
-                  <a href='https://github.com/AJManzione/Team-Profile-Generator'>
-                    <img width="25px"src={githubIcon}></img>
-                  </a>
-                  <a href='https://www.youtube.com/watch?v=P6LUVCYvg_4&t=20s'>
-                    <img width='70px' src={youtubeIcon}></img>
-                  </a>
-                </div>
+          <div className='col-lg-4 piece'>
+            <h6>Team Profile Generator</h6>
+            <img className="movies-small" src={TPG} alt=''></img>
+            <a target='__blank' href='https://github.com/AJManzione/Team-Profile-Generator'>
+              <img width="25px"src={githubIcon} alt=''></img>
+            </a>
+            <a target='__blank' href='https://www.youtube.com/watch?v=P6LUVCYvg_4&t=20s'>
+              <img width='70px' src={youtubeIcon} alt=''></img>
+            </a>
+          </div>
+{/* README.md Generator */}
+          <div className='col-lg-4 piece'>
+          <h6>README.md Generator</h6>
+            <img className="movies-small" src={RG} alt=''></img>
+            <a target='__blank' href='https://github.com/AJManzione/generator-README'>
+              <img width="25px"src={githubIcon} alt=''></img>
+            </a>
+            <a target='__blank' href='https://www.youtube.com/watch?v=KFUMAhR1H-Q'>
+              <img width='70px' src={youtubeIcon} alt=''></img>
+            </a>
+          </div>
+{/* Weather Tracker */}
+          <div className='col-lg-4 piece'>
+          <h6>Weather Dashboard</h6>
+            <img className="movies-small" src={WD} alt=''></img>
+            <a target='__blank' href='https://github.com/AJManzione/Weather-Tracker'>
+              <img width="25px"src={githubIcon} alt=''></img>
+            </a>
+            <a target='__blank' href='https://ajmanzione.github.io/Weather-Tracker/'>
+              <img width='40px' src={linkIcon} alt=''></img>
+            </a>
+          </div>
+{/* Work Day Scheduler */}
+          <div className='row mt-3'>
+            <div className='col-lg-4 piece'>
+              <h6>Work Day Scheduler</h6>
+                <img className="movies-small" src={WDS} alt=''></img>
+                <a target='__blank' href='https://github.com/AJManzione/Work-Day-Scheduler'>
+                  <img width="25px"src={githubIcon} alt=''></img>
+                </a>
+                <a target='__blank' href='https://ajmanzione.github.io/Work-Day-Scheduler/'>
+                  <img width='40px' src={linkIcon} alt=''></img>
+                </a>
               </div>
-            </div>
-  {/* README.md Generator */}
-            <div className='col-lg-6'>
-              <div className='card'>
-                <div className='card-header'>
-                <h3 class="text-center">README.md Generator</h3>
-                </div>
-                <div className='card-body'>
-                  <img className="movies" src={RG}></img>
-                </div>
-                <div className='card-footer d-flex flex-row justify-content-around align-items-sm-center'>
-                  <a href='https://github.com/AJManzione/generator-README'>
-                    <img width="25px"src={githubIcon}></img>
-                  </a>
-                  <a href='https://www.youtube.com/watch?v=KFUMAhR1H-Q'>
-                    <img width='70px' src={youtubeIcon}></img>
-                  </a>
-                </div>
-              </div>
-            </div>
+          </div>  
         </div>
       </div>
     </div>

@@ -2,10 +2,9 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div className='container'>
-      <div className=' m-3 row d-flex justify-content-center'>
-        <h1 className='text-center'>Contact Me</h1>
-      </div>
+    <div className='container mt-3'>
+      <h1 className="text-center">Contact Me</h1>
+      <br></br>
       <form>
         <div class="row d-flex justify-content-center">
           <div class="col-md-5 custom-form">
@@ -18,10 +17,6 @@ export default function Contact() {
           </div>
         </div>
       </form>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
       <br></br>
     </div>
   );
