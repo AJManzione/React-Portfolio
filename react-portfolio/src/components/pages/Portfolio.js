@@ -6,8 +6,10 @@ import RG from '../../assets/movies/README-generator-WT.gif';
 import WD from '../../assets/movies/Weather-Tracker.png';
 import WDS from '../../assets/movies/Work-Day-Scheduler.png';
 import githubIcon from '../../assets/icons/GitHub-Mark-120px-plus.png';
+import githhubIconWhite from '../../assets/icons/GitHub-Mark-Light-120px-plus.png'
 import youtubeIcon from '../../assets/icons/youtube-logo-png-2069.png';
-import linkIcon from '../../assets/icons/link-icon.png'
+import linkIcon from '../../assets/icons/link-icon.png';
+import linkIconWhite from '../../assets/icons/link-icon-white.png';
 
 
 export default function Portfolio() {
@@ -33,10 +35,10 @@ export default function Portfolio() {
               </div>
               <div className='card-footer d-flex flex-row justify-content-around align-items-sm-center'>
                 <a target='__blank' href='https://github.com/wseban/Mickey-n-Friends-Finder'>
-                  <img width="25px"src={githubIcon} alt=''></img>
+                  <img width="25px"src={githhubIconWhite} alt=''></img>
                 </a>
                 <a target='__blank' href='https://wseban.github.io/Mickey-n-Friends-Finder/'>
-                  <img width='40px' src={linkIcon} alt=''></img>
+                  <img width='40px' src={linkIconWhite} alt=''></img>
                 </a>
               </div>
             </div>
@@ -52,10 +54,10 @@ export default function Portfolio() {
               </div>
               <div className='card-footer d-flex flex-row justify-content-around align-items-sm-center'>
                 <a target='__blank' href='https://github.com/AJManzione/wish-list'>
-                  <img width="25px"src={githubIcon} alt=''></img>
+                  <img width="25px"src={githhubIconWhite} alt=''></img>
                 </a>
                 <a target='__blank' href='https://wish-list-maker.herokuapp.com/'>
-                  <img width='40px' src={linkIcon} alt=''></img>
+                  <img width='40px' src={linkIconWhite} alt=''></img>
                 </a>
               </div>
             </div>
@@ -73,49 +75,57 @@ export default function Portfolio() {
             <h1> Half Stack && CLI App's</h1>
           </div>
 {/* Team Profile Generator */}
-          <div className='col-lg-4 piece'>
-            <h6>Team Profile Generator</h6>
+          <div className='col-lg-4'>
+            <h6 className='text-center'>Team Profile Generator</h6>
             <img className="movies-small" src={TPG} alt=''></img>
-            <a target='__blank' href='https://github.com/AJManzione/Team-Profile-Generator'>
-              <img width="25px"src={githubIcon} alt=''></img>
-            </a>
-            <a target='__blank' href='https://www.youtube.com/watch?v=P6LUVCYvg_4&t=20s'>
-              <img width='70px' src={youtubeIcon} alt=''></img>
-            </a>
+            <div className='d-flex flex-row justify-content-around align-items-center'>
+              <a target='__blank' href='https://github.com/AJManzione/Team-Profile-Generator'>
+                <img width="25px"src={githubIcon} alt=''></img>
+              </a>
+              <a target='__blank' href='https://www.youtube.com/watch?v=P6LUVCYvg_4&t=20s'>
+                <img width='70px' src={youtubeIcon} alt=''></img>
+              </a>
+            </div>
           </div>
 {/* README.md Generator */}
-          <div className='col-lg-4 piece'>
-          <h6>README.md Generator</h6>
+          <div className='col-lg-4'>
+          <h6 className='text-center'>README.md Generator</h6>
             <img className="movies-small" src={RG} alt=''></img>
-            <a target='__blank' href='https://github.com/AJManzione/generator-README'>
-              <img width="25px"src={githubIcon} alt=''></img>
-            </a>
-            <a target='__blank' href='https://www.youtube.com/watch?v=KFUMAhR1H-Q'>
-              <img width='70px' src={youtubeIcon} alt=''></img>
-            </a>
+            <div className='d-flex flex-row justify-content-around align-items-center'>
+              <a target='__blank' href='https://github.com/AJManzione/generator-README'>
+                <img width="25px"src={githubIcon} alt=''></img>
+              </a>
+              <a target='__blank' href='https://www.youtube.com/watch?v=KFUMAhR1H-Q'>
+                <img width='70px' src={youtubeIcon} alt=''></img>
+              </a>
+            </div>
           </div>
 {/* Weather Tracker */}
-          <div className='col-lg-4 piece'>
-          <h6>Weather Dashboard</h6>
-            <img className="movies-small" src={WD} alt=''></img>
-            <a target='__blank' href='https://github.com/AJManzione/Weather-Tracker'>
-              <img width="25px"src={githubIcon} alt=''></img>
-            </a>
-            <a target='__blank' href='https://ajmanzione.github.io/Weather-Tracker/'>
-              <img width='40px' src={linkIcon} alt=''></img>
-            </a>
-          </div>
-{/* Work Day Scheduler */}
-          <div className='row mt-3'>
-            <div className='col-lg-4 piece'>
-              <h6>Work Day Scheduler</h6>
-                <img className="movies-small" src={WDS} alt=''></img>
-                <a target='__blank' href='https://github.com/AJManzione/Work-Day-Scheduler'>
+            <div className='col-lg-4'>
+              <h6 className='text-center'>Weather Dashboard</h6>
+              <img className="movies-small" src={WD} alt=''></img>
+                <div className='d-flex flex-row justify-content-around m-2 align-items-center'>
+                <a target='__blank' href='https://github.com/AJManzione/Weather-Tracker'>
                   <img width="25px"src={githubIcon} alt=''></img>
                 </a>
-                <a target='__blank' href='https://ajmanzione.github.io/Work-Day-Scheduler/'>
+                <a target='__blank' href='https://ajmanzione.github.io/Weather-Tracker/'>
                   <img width='40px' src={linkIcon} alt=''></img>
                 </a>
+              </div>
+            </div>
+{/* Work Day Scheduler */}
+          <div className='d-flex justify-content-center mt-3'>
+            <div className='col-lg-4'>
+              <h6 className='text-center'>Work Day Scheduler</h6>
+              <img className="movies-small" src={WDS} alt=''></img>
+                <div className='d-flex flex-row justify-content-around m-2 align-items-center'>
+                  <a target='__blank' href='https://github.com/AJManzione/Work-Day-Scheduler'>
+                    <img width="25px"src={githubIcon} alt=''></img>
+                  </a>
+                  <a target='__blank' href='https://ajmanzione.github.io/Work-Day-Scheduler/'>
+                    <img width='40px' src={linkIcon} alt=''></img>
+                  </a>
+                </div>
               </div>
           </div>  
         </div>

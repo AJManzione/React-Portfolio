@@ -3,7 +3,6 @@ import githubIcon from '../../assets/icons/GitHub-Mark-Light-120px-plus.png';
 import youtubeIcon from '../../assets/icons/youtube-logo-png-2069.png';
 import linkedInIcon from '../../assets/icons/LI-In-Bug.png'
 
-
 export default function Footer() {
     return (
         <footer className="d-flex justify-content-around p-1 mt-5">    
