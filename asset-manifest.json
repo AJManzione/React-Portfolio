@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.d580b2c7.css",
+    "main.js": "/react-portfolio/static/js/main.17b391bc.js",
+    "static/media/Wish-List-WT.gif": "/react-portfolio/static/media/Wish-List-WT.682229bafc875df3e570.gif",
+    "static/media/Anthony-Portrait.jpg": "/react-portfolio/static/media/Anthony-Portrait.3459bc54e44ba1e8cad1.jpg",
+    "static/media/MNFF-WT.gif": "/react-portfolio/static/media/MNFF-WT.795efc1086c3b0bee87d.gif",
+    "static/media/README-generator-WT.gif": "/react-portfolio/static/media/README-generator-WT.86c274426445d23dc9f6.gif",
+    "static/media/TEAM-PROFILE-WT.gif": "/react-portfolio/static/media/TEAM-PROFILE-WT.b6247618e33bcdf2d5ad.gif",
+    "static/media/Weather-Tracker.png": "/react-portfolio/static/media/Weather-Tracker.2a88e98d1db4e05a2362.png",
+    "static/media/Work-Day-Scheduler.png": "/react-portfolio/static/media/Work-Day-Scheduler.7e7c465cf24bafd27e3d.png",
+    "static/media/Manzione_Anthony_Resume_2023_.png": "/react-portfolio/static/media/Manzione_Anthony_Resume_2023_.4e9ba440029683e27b18.png",
+    "static/media/banner.png": "/react-portfolio/static/media/banner.e838b2acdeb2f61ae84a.png",
+    "static/media/youtube-logo-png-2069.png": "/react-portfolio/static/media/youtube-logo-png-2069.4504d71f9d363b16eeec.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.d580b2c7.css.map": "/react-portfolio/static/css/main.d580b2c7.css.map",
+    "main.17b391bc.js.map": "/react-portfolio/static/js/main.17b391bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d580b2c7.css",
+    "static/js/main.17b391bc.js"
+  ]
+}
