@@ -19,7 +19,10 @@ export default function Resume() {
           <a href={ResumeFile} download>Download Resume</a>
         </div>
       </div>
-      <br></br> 
+      <br></br> <br></br>
+      <br></br> <br></br>
+      <br></br> <br></br>
+      <br></br> <br></br>
     </div>
   );
 }
