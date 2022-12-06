@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.44e581d4.css",
-    "main.js": "/React-Portfolio/static/js/main.61747c3e.js",
+    "main.css": "/React-Portfolio/static/css/main.341eb220.css",
+    "main.js": "/React-Portfolio/static/js/main.153aa0eb.js",
     "static/media/Wish-List-WT.gif": "/React-Portfolio/static/media/Wish-List-WT.682229bafc875df3e570.gif",
     "static/media/Anthony-Portrait.jpg": "/React-Portfolio/static/media/Anthony-Portrait.3459bc54e44ba1e8cad1.jpg",
     "static/media/MNFF-WT.gif": "/React-Portfolio/static/media/MNFF-WT.795efc1086c3b0bee87d.gif",
@@ -13,11 +13,11 @@
     "static/media/banner.png": "/React-Portfolio/static/media/banner.e838b2acdeb2f61ae84a.png",
     "static/media/youtube-logo-png-2069.png": "/React-Portfolio/static/media/youtube-logo-png-2069.4504d71f9d363b16eeec.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.44e581d4.css.map": "/React-Portfolio/static/css/main.44e581d4.css.map",
-    "main.61747c3e.js.map": "/React-Portfolio/static/js/main.61747c3e.js.map"
+    "main.341eb220.css.map": "/React-Portfolio/static/css/main.341eb220.css.map",
+    "main.153aa0eb.js.map": "/React-Portfolio/static/js/main.153aa0eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.44e581d4.css",
-    "static/js/main.61747c3e.js"
+    "static/css/main.341eb220.css",
+    "static/js/main.153aa0eb.js"
   ]
 }
